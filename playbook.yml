@@ -1,6 +1,13 @@
 ---
 - hosts: all
   sudo: yes
+  vars:
+    dev_packages:
+      - cmake
+      - make
+      - g++
+      - clang
   roles:
   - geerlingguy.jenkins
   - UnrealQuester.oclint
+  - tools
