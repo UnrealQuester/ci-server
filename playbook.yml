@@ -8,6 +8,7 @@
       - g++
       - clang
       - bear
+      - git
   roles:
   - geerlingguy.jenkins
   - UnrealQuester.oclint
