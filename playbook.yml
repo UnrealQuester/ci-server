@@ -9,6 +9,11 @@
       - clang
       - bear
       - git
+    jenkins_plugins:
+      - git
+      - ssh
+      - pmd
+      - ws-cleanup
   roles:
   - geerlingguy.jenkins
   - UnrealQuester.oclint
