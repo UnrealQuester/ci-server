@@ -14,7 +14,10 @@
       - ssh
       - pmd
       - ws-cleanup
+    gitlab_external_url: "http://gitlab:8081"
+    jenkins_http_port: 8082
   roles:
   - geerlingguy.jenkins
   - UnrealQuester.oclint
   - tools
+  - geerlingguy.gitlab
