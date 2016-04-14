@@ -9,15 +9,8 @@
       - clang
       - bear
       - git
-    jenkins_plugins:
-      - git
-      - ssh
-      - pmd
-      - ws-cleanup
-    gitlab_external_url: "http://gitlab:8081"
-    jenkins_http_port: 8082
+    gitlab_external_url: "http://localhost:8081"
   roles:
-  - geerlingguy.jenkins
   - UnrealQuester.oclint
   - tools
   - geerlingguy.gitlab
